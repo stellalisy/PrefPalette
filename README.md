@@ -2,7 +2,7 @@
 
 ![thinking-spongebob](figs/lava_fig2.png)
 
-# 🌋 LaVA: Preference Modeling with Latent Value Attributes
+# 🎨 PrefPalette: Personalized Preference Modeling with Latent Attributes
   
 [Shuyue Stella Li](https://stellalisy.com/), 
 [Melanie Sclar](https://msclar.github.io/), 
@@ -29,7 +29,7 @@
 
 ```sh
 # Our codebase primarily uses Open-RLHF (https://github.com/OpenRLHF/OpenRLHF).
-git clone git@github.com:stellalisy/LaVA
+git clone git@github.com:stellalisy/PrefPalette
 cd code
 
 conda create -n lava python=3.10 
@@ -94,7 +94,7 @@ Note: To exactly reproduce `temperature = 0` results, both the GPU type and `--s
 
 ```bibtex
 @misc{li2025lavapreferencemodeling,
-      title={LaVA: Preference Modeling with Latent Value Attributes}, 
+      title={PrefPalette: Personalized Preference Modeling with Latent Attributes}, 
       author={Shuyue Stella Li and Melanie Sclar and Hunter Lang and Ansong Ni and Jacqueline He and Puxin Xu and Andrew Cohen and Chan Young Park and Yulia Tsvetkov and Asli Celikyilmaz},
       year={2025},
       eprint={XXXX.XXXXX},
