@@ -93,14 +93,14 @@ Note: To exactly reproduce `temperature = 0` results, both the GPU type and `--s
 ## Citation
 
 ```bibtex
-@misc{li2025lavapreferencemodeling,
+@misc{li2025prefpalette,
       title={PrefPalette: Personalized Preference Modeling with Latent Attributes}, 
       author={Shuyue Stella Li and Melanie Sclar and Hunter Lang and Ansong Ni and Jacqueline He and Puxin Xu and Andrew Cohen and Chan Young Park and Yulia Tsvetkov and Asli Celikyilmaz},
       year={2025},
-      eprint={XXXX.XXXXX},
+      eprint={2507.13541},
       archivePrefix={arXiv},
       primaryClass={cs.AI},
-      url={https://arxiv.org/abs/XXXX.XXXXX}, 
+      url={https://arxiv.org/abs/2507.13541}, 
 }
 ```
 
