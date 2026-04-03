@@ -1,0 +1,11 @@
+gpt4o_clf:
+  prompt_template: "prompt_template.txt"
+  system_prompt: "system_prompt.txt"
+  fn_completions: "openai_chat_completions"
+  self_consistency: 2
+  completions_kwargs:
+    model_name: "gpt-4o"
+    max_new_tokens: 512
+    temperature: 0.0
+    request_timeout: 30
+    api_account: "openai"

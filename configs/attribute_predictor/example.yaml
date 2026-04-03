@@ -1,0 +1,36 @@
+# Attribute Predictor Training Configuration
+# Trains a specialized reward model for a single attribute dimension
+# using counterfactual pairs from prepare_attribute_data.py
+learning_rate: 1e-5
+dataset: data/attribute_training_data/verbosity
+dataset_probs: "1.0"
+train_split: train
+eval_split: eval_comment,eval_ood,eval_level
+test_split: test_comment,test_ood,test_level
+best_model_eval_split: eval_comment
+best_model_eval_metric: acc_mean
+prompt_key: context
+chosen_key: chosen
+rejected_key: rejected
+input_key: message
+apply_chat_template: true
+pretrain: meta-llama/Llama-3.2-1B-Instruct
+save_path: outputs/attribute_predictors/verbosity
+ckpt_path: outputs/attribute_predictors/verbosity
+max_ckpt_num: 1
+logging_steps: 1
+save_steps: 10
+eval_steps: 10
+load_checkpoint: true
+train_batch_size: 256
+micro_train_batch_size: 8
+bf16: true
+max_epochs: 1
+max_len: 2048
+zero_stage: 1
+flash_attn: true
+gradient_checkpointing: true
+l2: 0
+lr_warmup_ratio: 0.03
+packing_samples: true
+norm_training: true

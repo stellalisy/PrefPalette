@@ -1,0 +1,14 @@
+Instruction: I require a leaderboard for various Reddit comment generator models. I'll provide you with posts selected from Reddit given to these models and their corresponding outputs. Your task is to assess these responses, and select the model that produces the output that will be upvoted more.
+
+## Instruction
+{question}
+
+## Model Outputs
+Here are the unordered outputs from the models. Each output is associated with a specific model, identified by a unique model identifier.
+"model_identifier": "m", "output": "{output_1}"
+"model_identifier": "M", "output": "{output_2}"
+
+## Task
+Evaluate the models based on the quality and relevance of their outputs, and select the model that generated the best output. Answer by providing the model identifier of the best model. We will use your output as the name of the best model, so make sure your output only contains one of the following model identifiers and nothing else (no quotes, no spaces, no new lines, ...): m or M.
+
+## Best Model Identifier
