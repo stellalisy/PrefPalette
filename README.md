@@ -273,14 +273,12 @@ Training is configured via YAML files. See `configs/` for examples. Key paramete
 ## Citation
 
 ```bibtex
-@misc{li2025prefpalette,
-      title={PrefPalette: Personalized Preference Modeling with Latent Attributes}, 
-      author={Shuyue Stella Li and Melanie Sclar and Hunter Lang and Ansong Ni and Jacqueline He and Puxin Xu and Andrew Cohen and Chan Young Park and Yulia Tsvetkov and Asli Celikyilmaz},
-      year={2025},
-      eprint={2507.13541},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2507.13541}, 
+@inproceedings{liprefpalette,
+  title={PrefPalette: Personalized Preference Modeling with Latent Attributes},
+  author={Li, Shuyue Stella and Sclar, Melanie and Lang, Hunter and Ni, Ansong and He, Jacqueline and Xu, Puxin and Cohen, Andrew and Park, Chan Young and Tsvetkov, Yulia and Celikyilmaz, Asli},
+  booktitle={Second Conference on Language Modeling},
+  year={2025},
+  url={https://arxiv.org/abs/2507.13541}, 
 }
 ```
 
